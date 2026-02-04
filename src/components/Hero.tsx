@@ -6,7 +6,7 @@ import { FaLocationArrow } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <div className="pb-36 pt-36 ">
+    <div className="pb-20 pt-36 ">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:top-20 h-screen"
@@ -20,7 +20,7 @@ const Hero = () => {
       </div>
 
       <div>
-        <div className="absolute bg-white  top-0 left-0 flex h-screen  w-full items-center  justify-center  dark:bg-black-100 dark:bg-grid-white/[0.10] ">
+        <div className="absolute bg-white  top-0 left-0 flex h-screen  w-full items-center  justify-center  dark:bg-black-100 dark:bg-grid-white/[0.10] bg-grid-black/[0.2] ">
           <div className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"></div>
         </div>
       </div>
