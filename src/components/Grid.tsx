@@ -1,9 +1,11 @@
-import React from 'react'
+import { title } from 'process';
+import React from 'react';
 
 const Grid = () => {
-  return (
-    <div>Grid</div>
-  )
-}
+  return <section>
 
-export default Grid
+    
+  </section>;
+};
+
+export default Grid;

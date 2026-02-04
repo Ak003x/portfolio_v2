@@ -11,6 +11,7 @@
     "format:check": "prettier --check \"src/**/*.{js,jsx,json,css,md}\""
   },
   "dependencies": {
+    "@tabler/icons-react": "^3.36.1",
     "clsx": "^2.1.1",
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^12.31.0",
@@ -26,6 +27,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-lottie": "^1.2.10",
     "autoprefixer": "^10.4.24",
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
