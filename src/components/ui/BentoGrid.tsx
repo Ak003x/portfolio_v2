@@ -92,7 +92,7 @@ export const BentoGridItem = ({
           <div className="font-sans text-sm font-extralight text-[#c1c2d3] md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className=" font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className=" font-sans font-bold text-lg lg:text-xl max-w-96 z-10">
             {title}
           </div>
 
@@ -103,7 +103,7 @@ export const BentoGridItem = ({
                 {['JavaScript', 'TypScript', 'Java', 'MySQL'].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e] "
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-sm opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e] "
                   >
                     {item}
                   </span>
@@ -118,7 +118,7 @@ export const BentoGridItem = ({
                 ].map((item) => (
                   <span
                     key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e] "
+                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-sm opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e] "
                   >
                     {item}
                   </span>
