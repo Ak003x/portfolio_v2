@@ -1,5 +1,6 @@
 import Grid from '@/components/Grid';
 import Hero from '@/components/Hero';
+import Clients from '@/components/Clients';
 import RecentProject from '@/components/RecentProject';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data/index';
@@ -12,12 +13,11 @@ export default function Home() {
     sm:px-10 px-5 "
     >
       <div className="max-w-7xl w-full">
-        <FloatingNav
-          navItems={navItems}
-        />
+        <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
         <RecentProject />
+        <Clients />
       </div>
     </main>
   );
