@@ -10,8 +10,8 @@ const clients = () => {
         <span className="text-purple"> satisfied clients </span>
       </h1>
 
-      <div className="flex flex-col items-center justify-center ">
-        <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center relative overflow-hidden">
+      <div className="flex flex-col items-center justify-center max-lg:mt-10">
+        <div className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden">
           <InfiniteMovingCards
             items={testimonials}
             direction="right"
