@@ -157,7 +157,7 @@ export const BentoGridItem = ({
           )}
 
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="mt-4 relative lg:mt-2">
               <div
                 className={`absolute -bottom-5 right-0 ${
                   copied ? 'block' : 'block'
