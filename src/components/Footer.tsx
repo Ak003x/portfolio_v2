@@ -9,7 +9,7 @@ const Footer = () => {
           alt="grid"
           className="w-full h-full opacity-50"
         />
-      </div>
+      </div >
     </footer>
   );
 };
