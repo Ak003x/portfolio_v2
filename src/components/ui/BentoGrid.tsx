@@ -61,13 +61,10 @@ export const BentoGridItem = ({
     },
   };
 
-
-
-
-const handleDownloadResume = () => {
+  const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/public/Akash.v.resume .pdf';
-    link.download = 'Akash_Resume.pdf';
+    link.href = '/Akash.v.resume .pdf'; // Include the space before .pdf
+    link.download = 'Akash.v.resume .pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -174,7 +171,7 @@ const handleDownloadResume = () => {
 
               <MagicButton
                 title="Download My Resume"
-                 icon={<AiOutlineDownload />} 
+                icon={<AiOutlineDownload />}
                 position="left"
                 handleClick={handleDownloadResume}
                 otherClasses="!bg-[#161A31]"
