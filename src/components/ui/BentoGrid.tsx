@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { IoCopyOutline } from 'react-icons/io5';
+import { AiOutlineDownload } from 'react-icons/ai';
 
 import Lottie from 'react-lottie';
 
@@ -60,10 +61,16 @@ export const BentoGridItem = ({
     },
   };
 
-  const handleCopy = () => {
-    const text = 'aakash.velu.003@gmail.com';
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+
+
+
+const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/public/Akash.v.resume .pdf';
+    link.download = 'Akash_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
@@ -166,10 +173,10 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? 'Email is Copied!' : 'Copy my Email'}
-                icon={<IoCopyOutline />}
+                title="Download My Resume"
+                 icon={<AiOutlineDownload />} 
                 position="left"
-                handleClick={handleCopy}
+                handleClick={handleDownloadResume}
                 otherClasses="!bg-[#161A31]"
               />
             </div>
