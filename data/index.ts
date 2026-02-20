@@ -149,7 +149,7 @@ export const companies = [
   {
     id: 2,
     name: 'Next.js',
-    img: '/app.svg',
+    img: '/react.svg',
     nameImg: '/appName.svg',
   },
   {
@@ -160,13 +160,13 @@ export const companies = [
   },
   {
     id: 4,
-    name: 'stream',
+    name: 'aceternity UI',
     img: '/s.svg',
     nameImg: '/streamName.svg',
   },
   {
     id: 5,
-    name: '',
+    name: 'MongoDB',
     img: '/dock.svg',
     nameImg: '/dockerName.svg',
   },
