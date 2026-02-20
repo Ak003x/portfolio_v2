@@ -4,7 +4,7 @@ import { Button } from './ui/MovingBorders';
 
 const Experience = () => {
   return (
-    <div className="py-20 " id="projects">
+    <div className="py-20 " id="Experience">
       <h1 className="heading">
         My
         <span className="text-purple"> Work Experience </span>
@@ -21,7 +21,7 @@ const Experience = () => {
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img
                 src={card.thumbnail}
-                alt="card.thumbnail"
+                alt={card.title}
                 className="lg:w-32 md:w-20 w-16"
               />
 
