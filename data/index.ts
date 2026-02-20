@@ -212,8 +212,8 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: '/twit.svg',
-    link: '',
+    img: '/mail.svg',
+    link: 'mailto:aakash.velu.003@gmail.com',
   },
   {
     id: 3,

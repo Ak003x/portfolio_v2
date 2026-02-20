@@ -170,7 +170,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title="Download My Resume"
+                title="Download Resume"
                 icon={<AiOutlineDownload />}
                 position="left"
                 handleClick={handleDownloadResume}
