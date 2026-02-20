@@ -63,8 +63,8 @@ export const BentoGridItem = ({
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Akash.v.resume .pdf'; // Include the space before .pdf
-    link.download = 'Akash.v.resume .pdf';
+    link.href = '/public/Akash.v.resume.pdf'; // Include the space before .pdf
+    link.download = 'Akash.v.resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
