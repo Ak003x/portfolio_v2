@@ -155,19 +155,36 @@ export const companies = [
     id: 3,
     name: 'Node.js',
     img: '/host.svg',
-
   },
   {
     id: 4,
     name: 'aceternity UI',
     img: '/s.svg',
-    
   },
   {
     id: 5,
     name: 'MongoDB',
     img: '/dock.svg',
-    
+  },
+  {
+    id: 6,
+    name: 'Java',
+    img: '/dock.svg',
+  },
+  {
+    id: 7,
+    name: 'Rest Api',
+    img: '/dock.svg',
+  },
+  {
+    id: 8,
+    name: 'Tailwind css',
+    img: '/dock.svg',
+  },
+  {
+    id: 9,
+    name: 'MySql',
+    img: '/dock.svg',
   },
 ];
 
