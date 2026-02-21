@@ -5,6 +5,7 @@ export const navItems = [
   { name: 'Projects', link: '#projects' },
   { name: 'Experience', link: '#Experience' },
   { name: 'Contact', link: '#contact' },
+  { name: 'Skills', link: '#skills' },
 ];
 
 export const gridItems = [
@@ -143,48 +144,58 @@ export const companies = [
   {
     id: 1,
     name: 'React.js',
-    img: '/cloud.svg',
+    img: '/react .svg',
     nameImg: '/cloudName.svg',
   },
   {
     id: 2,
     name: 'Next.js',
-    img: '/react.svg',
+    img: '/next.svg',
   },
   {
     id: 3,
     name: 'Node.js',
-    img: '/host.svg',
+    img: '/node.svg',
   },
   {
     id: 4,
     name: 'aceternity UI',
-    img: '/s.svg',
+    img: '/acui.png',
   },
   {
     id: 5,
     name: 'MongoDB',
-    img: '/dock.svg',
+    img: '/mdb.svg',
   },
   {
     id: 6,
     name: 'Java',
-    img: '/dock.svg',
+    img: '/java.svg',
   },
   {
     id: 7,
     name: 'Rest Api',
-    img: '/dock.svg',
+    img: '/rest.svg',
   },
   {
     id: 8,
     name: 'Tailwind css',
-    img: '/dock.svg',
+    img: '/tailwind.svg',
   },
   {
     id: 9,
     name: 'MySql',
-    img: '/dock.svg',
+    img: '/mySql.svg',
+  },
+  {
+    id: 10,
+    name: 'JavaScript',
+    img: '/js.svg',
+  },
+  {
+    id: 11,
+    name: 'Typescript',
+    img: '/typescript.svg',
   },
 ];
 

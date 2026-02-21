@@ -18,21 +18,24 @@ const clients = () => {
             speed="slow"
           />
         </div>
-
-        <div className="w-full mt-12 flex flex-col items-center justify-center ">
-          <h1 className="heading text-2xl md:text-3xl ">
-            Skills I'm <span className="text-purple">working On</span>
-          </h1>
-          <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 mt-10">
-            {companies.map(({ id, img, name }) => (
-              <div
-                key={id}
-                className="flex md:max-w-60 max-w-32 gap-2 items-center"
-              >
-                <img src={img} alt={name} className="md:w-10 w-5" />
-                <span className="text-sm md:text-base">{name}</span>
-              </div>
-            ))}
+        <div className="py-20" id="skills">
+          <div className="w-full  flex flex-col items-center justify-center">
+            <h1 className="heading text-2xl md:text-3xl ">
+              Skills I'm <span className="text-purple">working On</span>
+            </h1>
+            <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 mt-16">
+              {companies.map(({ id, img, name }) => (
+                <div
+                  key={id}
+                  className="flex  gap-2 items-center justify-center"
+                >
+                  <img src={img} alt={name} className="md:w-10 w-5" />
+                  <span className="text-sm font-mono text-center font-bold px-3">
+                    {name}
+                  </span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
