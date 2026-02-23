@@ -10,6 +10,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Akash Portfolio ',
   description: 'Modern & Minimalist Personal portfolio',
+
+  icons: {
+    icon: '/portfolio.svg',
+  },
 };
 
 export default function RootLayout({
