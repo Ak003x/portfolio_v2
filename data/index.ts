@@ -79,7 +79,7 @@ export const projects = [
     des: 'A non-profit educational platform empowering students worldwide with essential skills in communication, critical thinking, and comprehensive learning development.',
     img: '/project-pics/GFL.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: '/ui.earth.com',
+    link: 'https://gurukulamforlife.org',
   },
   {
     id: 2,
@@ -87,7 +87,7 @@ export const projects = [
     des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
     img: '/project-pics/MiniOs.jpg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: '/ui.yoom.com',
+    link: 'https://www.fedoraproject.org/workstation/download/',
   },
   {
     id: 3,
@@ -95,9 +95,8 @@ export const projects = [
     des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
     img: '/project-pics/portfolio.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: '/ui.aiimg.com',
+    link: 'https://portfolio-v2-one-self.vercel.app/',
   },
-  
 ];
 
 export const testimonials = [
