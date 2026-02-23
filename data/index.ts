@@ -1,5 +1,3 @@
-
-
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
@@ -78,7 +76,7 @@ export const projects = [
     title: 'GFL - Global Foundation for Learning',
     des: 'A non-profit educational platform empowering students worldwide with essential skills in communication, critical thinking, and comprehensive learning development.',
     img: '/project-pics/GFL.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+    iconLists: ['/projects-icons/go.svg', '/projects-icons/cup.svg', '/projects-icons/ed.svg', '/projects-icons/book.svg', '/projects-icons/reward.svg'],
     link: 'https://gurukulamforlife.org',
   },
   {
@@ -96,6 +94,14 @@ export const projects = [
     img: '/project-pics/portfolio.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
     link: 'https://portfolio-v2-one-self.vercel.app',
+  },
+  {
+    id: 4,
+    title: 'AI Image SaaS - Canva Application',
+    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
+    img: '/project-pics/pV1.png',
+    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
+    link: 'https://ak003x.github.io/Portfolio',
   },
 ];
 
