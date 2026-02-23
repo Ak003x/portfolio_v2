@@ -1,9 +1,9 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
+  { name: 'Skills', link: '#skills' },
   { name: 'Experience', link: '#Experience' },
   { name: 'Contact', link: '#contact' },
-  { name: 'Skills', link: '#skills' },
 ];
 
 export const gridItems = [
@@ -102,7 +102,7 @@ export const projects = [
     id: 3,
     title: 'Currently viewing - Minimalize modern portfolio',
     des: 'Crafting modern digital experiences using Next.js, Tailwind CSS, and Aceternity UI.',
-    img: '/project-pics/portfolio.png',
+    img: '/client1.png',
     iconLists: [
       '/re.svg',
       'next.svg',
