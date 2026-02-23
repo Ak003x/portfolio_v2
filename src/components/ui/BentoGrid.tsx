@@ -1,6 +1,4 @@
 'use client';
-import { useState } from 'react';
-import { IoCopyOutline } from 'react-icons/io5';
 import { AiOutlineDownload } from 'react-icons/ai';
 
 import Lottie from 'react-lottie';
@@ -50,7 +48,7 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const [copied, setCopied] = useState(false);
+  const copied = false;
 
   const defaultOptions = {
     loop: copied,
@@ -63,8 +61,10 @@ export const BentoGridItem = ({
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/public/Akash.v.resume.pdf'; // Include the space before .pdf
+    link.href = '/Akash.v.resume.pdf';
     link.download = 'Akash.v.resume.pdf';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -107,7 +107,7 @@ export const BentoGridItem = ({
         </div>
         {id === 6 && (
           <BackgroundGradientAnimation>
-           {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
+            {/* <div className="absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"></div> */}
           </BackgroundGradientAnimation>
         )}
 
