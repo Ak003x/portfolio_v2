@@ -36,6 +36,8 @@ export const PinContainer = ({
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       href={href || '/'}
+      target="_blank"
+      rel="noopener noreferrer"
     >
       <div
         style={{
@@ -58,13 +60,7 @@ export const PinContainer = ({
   );
 };
 
-export const PinPerspective = ({
-  title,
- 
-}: {
-  title?: string;
- 
-}) => {
+export const PinPerspective = ({ title }: { title?: string }) => {
   return (
     <motion.div className="pointer-events-none  w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">

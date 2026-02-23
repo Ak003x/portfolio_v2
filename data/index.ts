@@ -1,4 +1,4 @@
-import { link } from 'fs';
+
 
 export const navItems = [
   { name: 'About', link: '#about' },
@@ -83,7 +83,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
+    title: 'TRIX OS – Custom Linux Operating System',
     des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
     img: '/project-pics/MiniOs.jpg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
@@ -95,7 +95,7 @@ export const projects = [
     des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
     img: '/project-pics/portfolio.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://portfolio-v2-one-self.vercel.app/',
+    link: 'https://portfolio-v2-one-self.vercel.app',
   },
 ];
 
