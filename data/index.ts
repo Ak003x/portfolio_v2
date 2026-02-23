@@ -13,8 +13,8 @@ export const gridItems = [
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',
-    titleClassName: 'justify-end',
-    img: '/b1.svg',
+    titleClassName: ' justify-end md:justify-start',
+    img: '/client.png',
     spareImg: '',
   },
   {
@@ -225,8 +225,8 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Full Stack Dev - Zerocac',
+    desc: 'Designed and developed mobile app for both iOS & Android platforms using Modern tech stack',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
   },
@@ -239,7 +239,7 @@ export const workExperience = [
   },
   {
     id: 4,
-    title: 'Lead Frontend Developer',
+    title: 'Frontend Developer',
     desc: 'Developed and maintained user-facing features using modern frontend technologies.',
     className: 'md:col-span-2',
     thumbnail: '/exp4.svg',
