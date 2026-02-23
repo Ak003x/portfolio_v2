@@ -219,28 +219,28 @@ export const workExperience = [
   {
     id: 1,
     title: 'Frontend Engineer Intern',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+    desc: 'Contributed to the development of a scalable web application using React.js and modern UI practices, improving user experience, performance, and overall interface responsiveness.',
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg',
   },
   {
     id: 2,
-    title: 'Full Stack Dev - Zerocac',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using Modern tech stack',
+    title: 'Open Source Developer',
+    desc: 'Actively contributed to open-source projects by developing new features, fixing bugs, improving documentation, and collaborating with global contributors through Git and GitHub workflows.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
   },
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Freelance Software Developer',
+    desc: 'Delivered custom web and mobile applications for clients, transforming business requirements into scalable, production-ready solutions using modern development technologies.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg',
   },
   {
     id: 4,
     title: 'Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+    desc: 'Developed and maintained interactive, user-centric web interfaces using modern frontend technologies, emphasizing performance, scalability, and clean code standards.',
     className: 'md:col-span-2',
     thumbnail: '/exp4.svg',
   },
